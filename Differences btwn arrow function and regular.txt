@@ -1,0 +1,1 @@
+Las funciones de flecha son más concisas y ofrecen un comportamiento más predecible para this, mientras que las funciones regulares son más versátiles y tienen más funcionalidades disponibles, como la capacidad de ser usadas como constructores y el acceso al objeto 
