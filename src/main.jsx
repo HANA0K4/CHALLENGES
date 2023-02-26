@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import GifGrid from './Components/GifGrid'
-import './styleGif.css'
-
+import { CustomHook } from './Components/CustomHook'
+import './styles/styleCounter.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <GifGrid category= 'lol'/>
+    <CustomHook value = {1}/>
   </React.StrictMode>
 )
