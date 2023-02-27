@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { CustomHook } from './Components/CustomHook'
-import './styles/styleCounter.css'
+import { Giphy } from './Components/Giphy'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CustomHook value = {1}/>
+    <Giphy></Giphy>
   </React.StrictMode>
 )
