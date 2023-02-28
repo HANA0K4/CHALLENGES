@@ -23,7 +23,6 @@ export const useCounter = (value) => {
             handleSubsstract,
             handleReset,
             counter
-
         }
 
 } 

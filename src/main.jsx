@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Giphy } from './Components/Giphy'
+import { MultipleCustomHooks } from './Components/MultipleCustomHooks'
+import './styles/styleMultiple.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Giphy></Giphy>
+    <MultipleCustomHooks />
   </React.StrictMode>
 )
