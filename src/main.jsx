@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { Father } from './hooks/challenge-8/Father'
+import { NavComponent } from './hooks/challenge-11/NavComponent'
+import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Father />
-  </React.StrictMode>,
+
+  <BrowserRouter>
+    <NavComponent />
+  </BrowserRouter>
+  
 
 
 )
