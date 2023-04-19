@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/hooks/challenge-9
+src/hooks/challenge-8
 src/hooks/challenge-10
 src/hooks/challenge-11
 src/hooks/challenge-12
